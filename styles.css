@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#editor, #preview {
+   width: 100%;
+   min-height: 200px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background: white;
+}
+
+#editor {
+    resize: vertical;
+}
